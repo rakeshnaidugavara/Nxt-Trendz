@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .cart-summary-container {
+    width: 280px;
+    align-self: flex-end;
+  }
+}
+
+.cart-summary-text-container {
+  align-self: flex-end;
+}
+
+.order-total-heading {
+  color: #616e7c;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .order-total-heading {
+    font-size: 26px;
+  }
+}
+
+.order-total-amount {
+  color: #171f46;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .order-total-amount {
+    font-size: 28px;
+  }
+}
+
+.no-of-cart-item {
+  color: #616e7c;
+  font-size: 14px;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .no-of-cart-item {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.checkout-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
